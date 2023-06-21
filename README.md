@@ -30,15 +30,15 @@ The sales representative has provided data on the new product sales, including i
 <br>
 
 To ensure the accuracy and reliability of the data (product_sales), it is essential to validate and clean each column in the dataset. This involves reading the dataset, and all the columns in it, including their values, while checking for any inconsistencies or errors in the data and taking appropriate measures to correct them. The data validation process is as detailed below:
-1. **week** column: week column contains 15,000 entries (rows) with no null values, ranging from 1 - 6 weeks. The column is an _integer_ column.
-2. **sales_method** column: it contains _objects_ characters (Email, Call, and Email+Call), with no null values. But it contains some inconsistent values. Example: the value **em + call** was replaced with **Email + Call**; and the column **email** was replaced with **Email**, to match the naming convention used in other entries.
-3. **customer_id** column: the _object_ characters contained here are the unique identifier for the customer. The column is in other, with no null values.
-4. **nb_sold** column: contains _integer_ values for number of new products sold. It contains no null value.
-5. **revenue** column: this is an integer column that details revenue from sales. **NA** values observed (depicting null values) were subsequenty replaced with **0** to match the numerical data type used in other entries and fill the empyt cells.
-6. **years_as_customer** column: is an _integer_ column, which details number of years customers has been buying from the company. However, two outliers were observed, **47 years** and **63 years**, they are considered outliers since the company has been in existence for only **38 years since 1984-2022**. So the outliers were replaced with **38 years** to make them align; as using the median value of 3 years will be very small, and removing the outliers will affect other columns in the analysis. (NB: the dataset is assumed to terminate at 2022).
-7. **nb_site_visits** column: this is an _integer_ column, which ranges from **12 - 41 times** that the customer has visited our website in the last 6 months. It has no null values.
-8. **state** column: this is an _object_ column that details the location of customers, where orders are shipped. It contains no null value.
-9. Check the number of rows and columns, and the dataset statistics for the inconsistencies.
+1. `week` column: week column contains 15,000 entries (rows) with no null values, ranging from 1 - 6 weeks. The column is an _integer_ column.
+2. `sales_method` column: it contains _objects_ characters (Email, Call, and Email+Call), with no null values. But it contains some inconsistent values. Example: the value **em + call** was replaced with **Email + Call**; and the column **email** was replaced with **Email**, to match the naming convention used in other entries.
+3. `customer_id` column: the _object_ characters contained here are the unique identifier for the customer. The column is in other, with no null values.
+4. `nb_sold` column: contains _integer_ values for number of new products sold. It contains no null value.
+5. `revenue` column: this is an integer column that details revenue from sales. **NA** values observed (depicting null values) were subsequenty replaced with **0** to match the numerical data type used in other entries and fill the empyt cells.
+6. `years_as_customer` column: is an _integer_ column, which details number of years customers has been buying from the company. However, two outliers were observed, **47 years** and **63 years**, they are considered outliers since the company has been in existence for only **38 years since 1984-2022**. So the outliers were replaced with **38 years** to make them align; as using the median value of 3 years will be very small, and removing the outliers will affect other columns in the analysis. (NB: the dataset is assumed to terminate at 2022).
+7. `nb_site_visits` column: this is an _integer_ column, which ranges from **12 - 41 times** that the customer has visited our website in the last 6 months. It has no null values.
+8. `state` column: this is an _object_ column that details the location of customers, where orders are shipped. It contains no null value.
+9. Checked the number of rows and columns, and the dataset statistics for the inconsistencies.
 10. Unique count of values in all the columns was done using scatter-plot to check all the numeric variables for data validation’s sake.
 
 
