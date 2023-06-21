@@ -43,7 +43,7 @@ To ensure the accuracy and reliability of the data (product_sales), it is essent
 
 
 **2. EXPLORATORY ANALYSIS**
-![Distribution of Sales Revenue](Chart - Distribution of Sales Revenue.JPG)
+![Distribution of Sales Revenue](Chart - Distribution of Sales Revenue.jpg)
 
 ![Sales Method Distribution](Chart - Sales Method Distribution.JPG)
 
