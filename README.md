@@ -1,6 +1,6 @@
 # **PRODUCT SALES ANALYSIS**
 
-<img src="Stationeries.jpeg" width="100%">
+<img src="Stationeries.jpg" width="100%">
 
 
 ## Introduction
